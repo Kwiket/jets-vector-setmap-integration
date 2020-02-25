@@ -125,11 +125,6 @@ webView.addJavascriptInterface(new JsObject(), "android");
 Now when interface is available within JavaScript code inside WebView, seatmap is going to execute `android.handleSeatmapEvent(serializedMessage)` method to send messages up to Android. You shall be able to receive every incoming message and build necessary business logic to handle it.
 
 
-
-
-
-
-
 &nbsp;
 ### <a name="ios-integration"></a>&nbsp; iOS integration
 Seatmap shall be rendered within WKWebView.
@@ -195,6 +190,8 @@ Seatmap styling could be changed using color themes. At the moment, we have 4 di
 * kayak — [1764.html?colorTheme=kayak](http://demo-seatmap.quicket.me/htmls/dev/htmls/1764.html?colorTheme=kayak)
 * momondo — [1764.html?colorTheme=momondo](http://demo-seatmap.quicket.me/htmls/dev/htmls/1764.html?colorTheme=momondo)
 * skyscanner — [1764.html?colorTheme=skyscanner](http://demo-seatmap.quicket.me/htmls/dev/htmls/1764.html?colorTheme=skyscanner)
+
+You can try to [create own color theme here](http://theme-editor.jets.kwiket.com/) and export a JSON file - we can built-in it in next release.
 
 **To enforce seatmap use one of these color themes, include** `?colorTheme=` GET **parameter into seatmap url/path rendered inside iframe, WebView or WKWebView.**
 
