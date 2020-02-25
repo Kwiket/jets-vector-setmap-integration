@@ -1,7 +1,7 @@
 # Seatmap integration and communication
 This document describes how to integrate seatmap HTML page (further "seatmap") into any website, Android or iOS mobile app. Plus, communication between the seatmap and a parent layer that embeds seatmap (further just "parent layer").
 
-![](https://github.com/Kwiket/-setmap-integration/blob/master/.wiki-resources/funny-css-bug.jpg)
+![](https://github.com/Kwiket/jets-vector-setmap-integration/blob/master/.wiki-resources/funny-css-bug.jpg)
 >_They say seats with letter F are CSS bug. I say it's a smoking area_ 😜
 
 &nbsp;
