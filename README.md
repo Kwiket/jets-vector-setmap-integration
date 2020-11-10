@@ -156,7 +156,19 @@ In general, WKWebView automatically injects `webkit.messageHandlers.callbackHand
 
 &nbsp;
 ## <a name="i18n-internationalization"></a>i18n internationalization &nbsp; 🇱🇻 &nbsp; 🇺🇸 &nbsp; 🇩🇪 &nbsp; 🇺🇦
-Seatmap is able to display labels (especially seat descriptions) in multiple languages — English `en_US`, Russian `ru_RU` and Chinese Simplified `cn_CN`. Default language is English.
+Seatmap is able to display labels (especially seat descriptions) in multiple languages: 
+* English `en`, `en-US` or `en_US`
+* German `de`, `de-DE` or `de_DE`
+* Russian `ru`, `ru-RU` or `ru_RU`
+* Chinese Simplified `cn`, `cn-CN` or `cn_CN`
+* French `fr`, `fr-FR` or `fr_FR`
+* Italian `it`, `it-IT` or `it_IT`
+* Swedish `sv`, `sv-SV` or `sv_SV`
+* Danish `da`, `da-DA` or `da_DA`
+* Norwegian `no`, `no-NO` or `no_NO`
+* Spanish `es`, `es-ES` or `es_ES`
+
+Default language is English.
 
 **To enforce seatmap labels display in a specific language, include** `?language=` GET **parameter into seatmap url/path rendered inside iframe, WebView or WKWebView.**
 
@@ -177,10 +189,6 @@ var req = NSURLRequest(URL:url)
 
 webView!.loadRequest(req)
 ```
-
-
-
-
 
 
 &nbsp;
